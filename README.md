@@ -1,4 +1,4 @@
-# Docker Metrics Demo
+# Grafana Metrics Demo
 
 A simple project demonstrating metrics capture and visualization using Prometheus and Grafana.
 
