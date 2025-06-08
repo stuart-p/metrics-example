@@ -1,5 +1,5 @@
 import client from 'prom-client';
-import { metrics } from './httpMetrics.js';
+import { metrics } from './httpMetrics';
 
 export const register = new client.Registry();
 client.collectDefaultMetrics({ register });

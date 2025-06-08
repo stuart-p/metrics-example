@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import {
   incrementRequestCount,
   observeRequestDuration
-} from '../metrics/httpMetrics.js';
+} from '../metrics/httpMetrics';
 
 export const metricsMiddleware = (
   req: Request,

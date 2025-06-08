@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { register } from './metrics/register.js';
-import { metricsMiddleware } from './middleware/httpMetrics.js';
+import { register } from './metrics/register';
+import { metricsMiddleware } from './middleware/httpMetrics';
 
 dotenv.config();
 
